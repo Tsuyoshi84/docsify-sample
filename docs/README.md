@@ -1,6 +1,6 @@
 # これは何？
 
-これは [docsify](https://docsify.js.org) を使ったサンプルページです。
+これは [docsify](https://docsify.js.org) を使ったサンプルページです。 [GitHub レポジトリ](https://github.com/Tsuyoshi84/docsify-sample/) に格納した Markdown ファイルから生成されてます。
 GitHub Pages でホストしてます。
 
 ## docsify を使うメリット
@@ -8,6 +8,7 @@ GitHub Pages でホストしてます。
 - GitHub に格納した Markdown ファイルから静的ページを生成することができる
 - PR を作ることで変更内容のレビューをすることができる
   - レビューを受けたドキュメントだけを反映できるので、内容の正確さや品質を担保しやすくなる
+- サイドバーに表示する項目も制御可能
 - GitHub pages を使えば簡単にホスト可能。CI によるビルドすらいらない
 - セットアップが超簡単
 

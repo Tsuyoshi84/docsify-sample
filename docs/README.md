@@ -3,15 +3,20 @@
 これは [docsify](https://docsify.js.org) を使ったサンプルページです。
 GitHub Pages でホストしてます。
 
-GitHub を使って PR ベースで管理できるし、GitHub pages で簡単にホストできるし、セットアップも超簡単だし、かなり良さげなのでは。
+## docsify を使うメリット
 
-```javascript
-let text = 'もちろんコードも書けるし';
-```
+- GitHub に格納した Markdown ファイルから静的ページを生成することができる
+- PR を作ることで変更内容のレビューをすることができる
+  - レビューを受けたドキュメントだけを反映できるので、内容の正確さや品質を担保しやすくなる
+- GitHub pages を使えば簡単にホスト可能。CI によるビルドすらいらない
+- セットアップが超簡単
 
-## そして
+## docsify 以外の選択肢
 
-スタイルもシンプルでかなり良い感じ。
+Markdown から静的ページを生成するツールとしては、他に [VuePress](https://vuepress.vuejs.org/) や [Docusarus](https://v2.docusaurus.io/) などがある。これらは Vue.js や React.js を使って柔軟なカスタマイズが可能だが、以下理由より docsify で十分かなと思っている。
+
+- 社内でしか閲覧しないので、細かくカスタムしたいという需要がおそらくない
+- メンテナンスに Vue.js や React.js の知識がある程度必要となる
 
 ## 気になるところ
 

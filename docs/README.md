@@ -1,14 +1,13 @@
-# Headline
+# はじめに
 
-> An awesome project.
+これは [docsify](https://docsify.js.org) を使ったサンプルページです。
 
-# Introduction
-
-## Test
-
-This is a sample site using docsify.
+GitHub を使って PR ベースで管理できるし、GitHub pages で簡単にホストできるし、セットアップも超簡単だし、かなり良さげなのでは。
 
 ```javascript
-let a = 123;
-console.log(a);
+let text = 'もちろんコードも書けるし';
 ```
+
+## そして
+
+スタイルもシンプルでかなり良い感じ。
